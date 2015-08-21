@@ -10,14 +10,14 @@
 	<string>KMtoMiles</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>EB3D3FDBBB0D3904D4C2C3E1346E03CA81133AC4</key>
+		<key>1C0C17A68F03DC710406C84CF0C251DB38283BC4</key>
 		<string>github.com:Gl4di4torRr/KMtoMiles.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>platforms/ios/KMtoMiles.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>EB3D3FDBBB0D3904D4C2C3E1346E03CA81133AC4</key>
+		<key>1C0C17A68F03DC710406C84CF0C251DB38283BC4</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>EB3D3FDBBB0D3904D4C2C3E1346E03CA81133AC4</string>
+	<string>1C0C17A68F03DC710406C84CF0C251DB38283BC4</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>EB3D3FDBBB0D3904D4C2C3E1346E03CA81133AC4</string>
+			<string>1C0C17A68F03DC710406C84CF0C251DB38283BC4</string>
 			<key>IDESourceControlWCCName</key>
 			<string>KMtoMiles</string>
 		</dict>
