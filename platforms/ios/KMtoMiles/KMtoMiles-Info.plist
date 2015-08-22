@@ -61,11 +61,9 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.2.3</string>
+	<string>1.2.4</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSMainNibFile</key>
-	<string>MainViewController</string>
 	<key>NSMainNibFile~ipad</key>
 	<string></string>
 	<key>UILaunchImages</key>
@@ -172,8 +170,6 @@
 		</dict>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-	</array>
+	<array/>
 </dict>
 </plist>
