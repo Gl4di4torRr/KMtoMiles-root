@@ -32,7 +32,8 @@ myApp.controller('mainController', ['$scope', function($scope) {
                                                     {thisunit:'Millimeter'},
                                                     {thisunit:'Mile'},
                                                     {thisunit: 'Nautical Mile'},
-                                                    {thisunit: 'test'}
+                                                    {thisunit: 'Foot'},
+                                                    {thisunit: 'Yard'}
                                                     ];
                                     $scope.myUnit = $scope.units[0];
                                     
@@ -43,7 +44,9 @@ myApp.controller('mainController', ['$scope', function($scope) {
                                                      {thisunit2:'Centimeter'},
                                                      {thisunit2:'Millimeter'},
                                                      {thisunit2:'Mile'},
-                                                     {thisunit2: 'Nautical Mile'}
+                                                     {thisunit2: 'Nautical Mile'},
+                                                     {thisunit2: 'Foot'},
+                                                     {thisunit2: 'Yard'}
                                                      ];
                                     $scope.myUnit2 = $scope.units2[4];
                                     
@@ -69,6 +72,12 @@ myApp.controller('mainController', ['$scope', function($scope) {
                                             else if(myUnit2 === "Nautical Mile"){
                                                 result = distance * 0.539957;
                                             }
+                                            else if(myUnit2 === "Foot"){
+                                                result = distance * 3280.84;
+                                            }
+                                            else if(myUnit2 === "Yard"){
+                                                result = distance * 1093.61;
+                                            }
                                         }
                                         else if(myUnit === "Meter"){
                                                 if(myUnit2 === "Kilometer"){
@@ -88,6 +97,12 @@ myApp.controller('mainController', ['$scope', function($scope) {
                                             }
                                             else if(myUnit2 === "Nautical Mile"){
                                                 result = distance * 0.000539957;
+                                            }
+                                            else if(myUnit2 === "Foot"){
+                                                result = distance * 3.28084;
+                                            }
+                                            else if(myUnit2 === "Yard"){
+                                                result = distance * 1.09361;
                                             }
                                         }
                                         else if(myUnit === "Centimeter"){
@@ -109,6 +124,12 @@ myApp.controller('mainController', ['$scope', function($scope) {
                                             else if(myUnit2 === "Nautical Mile"){
                                                 result = distance * 0.00000539957;
                                             }
+                                            else if(myUnit2 === "Foot"){
+                                                result = distance * 0.0328084;
+                                            }
+                                            else if(myUnit2 === "Yard"){
+                                                result = distance * 0.0109361;
+                                            }
                                         }
                                         else if(myUnit === "Millimeter"){
                                             if(myUnit2 === "Kilometer"){
@@ -128,6 +149,12 @@ myApp.controller('mainController', ['$scope', function($scope) {
                                             }
                                             else if(myUnit2 === "Nautical Mile"){
                                                 result = distance * 0.000000539957;
+                                            }
+                                            else if(myUnit2 === "Foot"){
+                                                result = distance * 0.00328084;
+                                            }
+                                            else if(myUnit2 === "Yard"){
+                                                result = distance * 0.00109361;
                                             }
                                         }
                                         else if(myUnit === "Mile"){
@@ -149,6 +176,12 @@ myApp.controller('mainController', ['$scope', function($scope) {
                                             else if(myUnit2 === "Nautical Mile"){
                                                 result = distance * 0.868976;
                                             }
+                                            else if(myUnit2 === "Foot"){
+                                                result = distance * 5280;
+                                            }
+                                            else if(myUnit2 === "Yard"){
+                                                result = distance * 1760;
+                                            }
                                         }
                                         else if(myUnit === "Nautical Mile"){
                                             if(myUnit2 === "Kilometer"){
@@ -167,6 +200,64 @@ myApp.controller('mainController', ['$scope', function($scope) {
                                                 result = distance * 1.15078;
                                             }
                                             else if(myUnit2 === "Nautical Mile"){
+                                                result = distance;
+                                            }
+                                            else if(myUnit2 === "Foot"){
+                                                result = distance * 6076.12;
+                                            }
+                                            else if(myUnit2 === "Yard"){
+                                                result = distance * 2025.37;
+                                            }
+                                        }
+                                        else if(myUnit === "Foot"){
+                                            if(myUnit2 === "Kilometer"){
+                                                result = distance * 0.0003048;
+                                            }
+                                            else if(myUnit2 === "Meter"){
+                                                result = distance * 0.3048;
+                                            }
+                                            else if(myUnit2 === "Centimeter"){
+                                                result = distance * 30.48;
+                                            }
+                                            else if(myUnit2 === "Millimeter"){
+                                                result = distance * 304.8;
+                                            }
+                                            else if(myUnit2 === "Mile"){
+                                                result = distance * 0.000189394;
+                                            }
+                                            else if(myUnit2 === "Nautical Mile"){
+                                                result = distance * 0.000164579;
+                                            }
+                                            else if(myUnit2 === "Foot"){
+                                                result = distance;
+                                            }
+                                            else if(myUnit2 === "Yard"){
+                                                result = distance * 0.333333;
+                                            }
+                                        }
+                                        else if(myUnit === "Yard"){
+                                            if(myUnit2 === "Kilometer"){
+                                                result = distance * 0.0009144;
+                                            }
+                                            else if(myUnit2 === "Meter"){
+                                                result = distance * 0.9144;
+                                            }
+                                            else if(myUnit2 === "Centimeter"){
+                                                result = distance * 91.44;
+                                            }
+                                            else if(myUnit2 === "Millimeter"){
+                                                result = distance * 914.4;
+                                            }
+                                            else if(myUnit2 === "Mile"){
+                                                result = distance * 0.000568182;
+                                            }
+                                            else if(myUnit2 === "Nautical Mile"){
+                                                result = distance * 0.000493737;
+                                            }
+                                            else if(myUnit2 === "Foot"){
+                                                result = distance * 3;
+                                            }
+                                            else if(myUnit2 === "Yard"){
                                                 result = distance;
                                             }
                                         }
