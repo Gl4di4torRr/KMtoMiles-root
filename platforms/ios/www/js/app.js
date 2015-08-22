@@ -32,6 +32,7 @@ myApp.controller('mainController', ['$scope', function($scope) {
                                                     {thisunit:'Millimeter'},
                                                     {thisunit:'Mile'},
                                                     {thisunit: 'Nautical Mile'}
+                                                    {thisunit: 'test'}
                                                     ];
                                     $scope.myUnit = $scope.units[0];
                                     
